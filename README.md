@@ -13,7 +13,7 @@ The renderer is not complete as some bugs exist within the rasterization. I inte
 (dimensions: tuple, background_color: tuple)
 Create the canvas to your canvas size and background color as a RGB tuple.
 
-** height_map = np.zeros([1000,1000])-1000 **
+**height_map = np.zeros([1000,1000])-1000**
 Create a height map that is used to keep track of items in view order. It should simply be a Numpy array of -(camera view distance) that is the same size as your canvas size
 
 **mesh = create_cube_mesh(200, (0,0,500),(86,45,26))**
