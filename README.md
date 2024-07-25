@@ -1,9 +1,9 @@
 # A completely from scratch 3D Renderer in Python
 
 This is a 3d render in Python that takes a camera and cubes located in 3d space and creates the 2D image the camera should be displaying.
-The renderer is not complete as some bugs exist within the rasterization. I intend to properly implement back culling to speed up rendering as well as many other optimizations within rasterization. 
+The renderer is not complete as some bugs exist within the rasterization. I intend to properly implement back culling to speed up rendering and many other optimizations within rasterization. 
 
-## how to use
+## How to Use
 
 **cam1 = camera(90,90,(1000,1000),(0,0,0),(0,0,0),(1,1000))**
 
