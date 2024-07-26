@@ -24,6 +24,6 @@ This function gives you the mesh for a cube that you specify. You can do this as
 **(canvas: np.ndarray, height_map: np.ndarray, cam: camera, mesh: mesh3D, border_color: tuple, fill_color: tuple)**
 This function will render a mesh onto a canvas by returning the canvas with the mesh rendered onto it. It also allows you to give an RGB tuple for the outline of each mesh face as well as the fill color for each mesh face.
 
-##save_image(canvas, "perfect image")
+## save_image(canvas, "perfect image")
 **(pixels: list, image_name: str)**
 Saves and displays the image you just created to the given file name.
